@@ -121,7 +121,7 @@ const AuthRegister = () => {
                     name="firstname"
                     onBlur={handleBlur}
                     onChange={handleChange}
-                    placeholder="John"
+                    placeholder="San"
                     fullWidth
                     error={Boolean(touched.firstname && errors.firstname)}
                   />
@@ -144,7 +144,7 @@ const AuthRegister = () => {
                     name="lastname"
                     onBlur={handleBlur}
                     onChange={handleChange}
-                    placeholder="Doe"
+                    placeholder="Chottu"
                     inputProps={{}}
                   />
                   {touched.lastname && errors.lastname && (

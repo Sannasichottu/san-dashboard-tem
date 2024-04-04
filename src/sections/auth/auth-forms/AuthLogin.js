@@ -51,8 +51,8 @@ const AuthLogin = ({ forgot }) => {
     <>
       <Formik
         initialValues={{
-          email: 'info@phoenixcoded.co',
-          password: '123456',
+          email: 'san@gmail.com',
+          password: 'sanpass',
           submit: null
         }}
         validationSchema={Yup.object().shape({
